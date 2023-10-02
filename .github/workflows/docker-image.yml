@@ -30,7 +30,7 @@ jobs:
         docker build -t penaday/teslo-shop:0.0.1 . 
     - name: Push Docker Image
       run: |
-        docker push penaday/teslo-shop:0.0.1 .
+        docker push penaday/teslo-shop:0.0.1 
 
         
     # - name: Build the Docker image
